@@ -1,6 +1,30 @@
+newmtl backGlass
+illum 4
+Kd 0.76 0.73 0.59
+Ka 0.00 0.00 0.00
+Tf 0.81 0.81 0.81
+Ni 1.00
+newmtl bandLeather
+illum 4
+Kd 0.05 0.08 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl bandMetal
+illum 4
+Kd 0.22 0.22 0.22
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
 newmtl initialShadingGroup
 illum 4
 Kd 0.50 0.50 0.50
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl watchFaceGlassMat
+illum 4
+Kd 0.81 0.81 0.81
+Ka 0.00 0.00 0.00
+Tf 0.37 0.37 0.37
 Ni 1.00

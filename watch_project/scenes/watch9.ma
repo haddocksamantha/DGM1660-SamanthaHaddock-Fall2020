@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: watch8.ma
-//Last modified: Fri, Sep 25, 2020 03:49:42 PM
+//Name: watch9.ma
+//Last modified: Fri, Sep 25, 2020 03:50:51 PM
 //Codeset: UTF-8
 requires maya "2019";
 currentUnit -l centimeter -a degree -t film;
@@ -13,7 +13,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "07A58F0F-FA41-819A-D1E7-E4B573F8B6CC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 18.944833489496311 24.562836879931858 18.491264795910865 ;
+	setAttr ".t" -type "double3" 20.470047793747099 23.102606952571978 18.839993692707829 ;
 	setAttr ".r" -type "double3" 317.06164727900261 -4632.6000000029644 9.3977473680317729e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "127066A8-1549-FFFD-0077-4BA93FD0E030";
@@ -10366,4 +10366,4 @@ connectAttr "watchFaceGlassMat1.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCylinder7Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
-// End of watch8.ma
+// End of watch9.ma
