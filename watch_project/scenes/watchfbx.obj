@@ -1,6 +1,6 @@
 # This file uses centimeters as units for non-parametric coordinates.
 
-mtllib watchobj.mtl
+mtllib watchfbx.mtl
 g default
 v 0.823037 0.821646 -2.821001
 v 1.666306 0.821646 -2.448821
