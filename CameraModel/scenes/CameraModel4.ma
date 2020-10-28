@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: CameraModel3.ma
-//Last modified: Wed, Oct 28, 2020 05:20:20 PM
+//Name: CameraModel4.ma
+//Last modified: Wed, Oct 28, 2020 05:21:06 PM
 //Codeset: UTF-8
 requires maya "2019";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "008FCFEB-2145-6507-F35F-0A930BA58DB1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.1243641091712862 23.658415457887266 -9.6120565529330761 ;
-	setAttr ".r" -type "double3" 302.06164727084808 -1957.399999999092 0 ;
+	setAttr ".t" -type "double3" -44.753479548960662 20.324428255248815 35.164105764774781 ;
+	setAttr ".r" -type "double3" 341.06164727065533 -1853.3999999984137 -2.667244201718649e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2BF781A8-8C4A-EFBB-F1F5-D9AA9EC2ADA4";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 25.964890031947117;
+	setAttr ".coi" 63.364129163282804;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -3890,4 +3890,4 @@ connectAttr "MediumResLensShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "LensKnobBackShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "LensKnobFrontShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
-// End of CameraModel3.ma
+// End of CameraModel4.ma
